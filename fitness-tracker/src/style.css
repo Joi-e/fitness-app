@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+button[type="submit"] {
+  margin-top: 10px; /* Add space between the button and the next element */
+}
+
+input[type="text"] {
+  width: calc(100% - 30px); /* Reduce width for exercise input */
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="number"] {
+  width: 50%; /* Set width to 50% for duration input */
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  text-align: center;
+  font-size: 18px;
+}
+
+.entry button {
+  display: none; /* Hide edit and delete buttons by default */
+}
+
+.entry:hover button {
+  display: inline-block; /* Show edit and delete buttons on hover */
+}
+
+.edit {
+  background-color: #3498db;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.delete {
+  background-color: #e74c3c;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
